@@ -4,7 +4,6 @@
 
 # Graph Data Structure Installation Instruction
 
-<<<<<<< HEAD
 #### Install Python  -  Watch the Video Below
 
 
@@ -62,4 +61,24 @@ python manage.py runserver
 
 #### click the ***Depth First Search** button to see the depth first search of the graph - using the first item as the root.
  
+# Running the Command Line Interface Version
+
+#### Ensure you are in your python virtual environment as stipulated above. Below are steps to get there.
+1. Open a command line interface on windows
+1. navigate to the folder where your virtual folder is  and activate it.
+1. go to your python project folder and run Visual Studio code IDE from there. You can also use any other IDE you want.
+> below are the steps (Leave out the > sign in your typing)
+```bash
+> cd\env-graphdsa  
+> scripts\activate
+> cd graphdsa
+> cd utils
+```
+>  the name of the file to execute is **cmd_view.py** located inside folder utils. Now run the code
+```bash
+python cmd_view.py
+```
+> The video explains how to use it.
+
+
 

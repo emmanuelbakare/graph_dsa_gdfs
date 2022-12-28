@@ -94,10 +94,6 @@ def menu_interface():
                 print()
                 print("Press any key to continue")
                 msvcrt.getch() # this pulse the program until a key is pressed
-                
-                
-
-             
             
             match action:
                 case 1:
@@ -114,6 +110,8 @@ def menu_interface():
                 case 4:
                     heading("Show Connected Nodes")
                     graph.graphdict(stringify=True)
+                    color.green('press any key to continue')
+                    msvcrt.getch()
                 case 5:
                     heading("Disconnect Routes")
                     disconnect_route_interface()
@@ -124,11 +122,14 @@ def menu_interface():
                     heading("Show Graph Diagram")
                     print('Brows output at file:///C:/env-graphdsa/graphdsa/templates/diagrams/nodeshow.html')
                     make_diag(graph.graphdict())
+                    color.green('press any key to continue')
+                    msvcrt.getch()
                 case 8:
                     heading("Depth First Search")
                     print('Brows output at file:///C:/env-graphdsa/graphdsa/templates/diagrams/dfs_show.html')
                     dfs_interface()
-                    # make_dfs_diag(graph.graphdict())
+                    color.green('press any key to continue')
+                    msvcrt.getch()
               
                 case 9:
                     print("Exiting program...")

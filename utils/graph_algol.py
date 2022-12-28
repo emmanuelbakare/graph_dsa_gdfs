@@ -108,9 +108,7 @@ class iGraph:
             if graph.get(root):
                 for neigbhour in graph[root]:
                     self.dfs(graph,neigbhour)
-            else:
-                print()
-                print("THIS NODE DOESN'T EXIST")
+            
 
 
 # draw a graph diagram
