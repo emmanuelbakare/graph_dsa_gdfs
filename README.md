@@ -72,11 +72,10 @@ python manage.py runserver
 > cd\env-graphdsa  
 > scripts\activate
 > cd graphdsa
-> cd utils
 ```
 >  the name of the file to execute is **cmd_view.py** located inside folder utils. Now run the code
 ```bash
-python cmd_view.py
+python utils\cmd_view.py
 ```
 > The video explains how to use it.
 

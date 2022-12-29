@@ -4,6 +4,8 @@ from graphs.models import Graph, Node, GraphGroup
 from utils.graph_algol import iGraph, make_dfs_diag, make_diag # import graph modules
 
 
+def home(request):
+    return render(request, 'home.html')
 
 # list all graph groups 
 def dashboard(request):
@@ -19,7 +21,7 @@ def graph_nodes(request,pk):
     graphs=group.graphs.all()
     
     
-    #generate the graph as your generate the web outputs
+    #generate the graph as you generate the web outputs
     graph_to_print=get_group_node_dict(pk)
     
     make_diag(graph_to_print)
@@ -28,12 +30,13 @@ def graph_nodes(request,pk):
     #generate graph, make dfs and draw dfs network
     root_node=graphs.first().fromNode.name  # get root node
     igraph=iGraph()
-    # igraph.dfs(graph_to_print, root_node)
-    igraph.dfs(graph_to_print, "Ondo")
+    igraph.dfs(graph_to_print, root_node)
+    # igraph.dfs(graph_to_print, "Ondo")
     make_dfs_diag(igraph.dfs_path)  
    
     context={ 
-        'graphs':graphs  
+        'graphs':graphs,
+        'group_name': group.name 
     }
     
     return render( request, 'graph/node_list.html', context)

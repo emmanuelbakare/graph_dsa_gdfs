@@ -1,0 +1,48 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<div class="row">
+    <div class="offset-2 col-8 my-3">
+        <div class="h3 text-center">ADVANCED DATA STRUCTURE AND ALGORITHM OF SOFTWARE ENGINEERING</div>
+        
+    </div>
+</div>
+<div class="row ">
+    <div class="col-md-2  ">
+        <!-- Hover added -->
+        <div class="list-group">
+            <a href="/admin/" class="list-group-item list-group-item-action">Admin</a>
+            <a href="{% url 'graphs:dashboard' %}" class="list-group-item list-group-item-action ">Graph DSA (DFS)</a>
+        </div>
+    </div>
+    <div class="col-md-8">
+      
+
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <p>Use the Depth First Search algorithm to Implement Graph traversal.
+                    The goal of this project is to ultimately allow anyone to learn and understand the graph traversal DFS method of a given Graph</p>
+                    <ul   >
+                        <li>Project Writeup <a href="media/CMP831_Advanced_Data_Structure_and_Algorithm.pdf"> Click Here to Download</a></li> 
+                    </ul>
+                
+                <p>
+                    <div class="h5">Scope</div>
+                    GUI-based Graph traversal using Depth First Search algorithm.</p>
+                <p>
+                    <div class="h5">Project requirements:</div>
+                    <ul type="disc">
+                        <li>Brief background of Graph traversal</li>
+                        <li>Full coding in Python / Visual basic/Java</li>
+                        <li>Full video/slide report on the algorithm of the algorithm</li>
+                        <li>The executable file <a href="https://github.com/emmanuelbakare/graph_dsa_gdfs"> Click here to see the files on Github and installation instructions</a></li>
+                        
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}

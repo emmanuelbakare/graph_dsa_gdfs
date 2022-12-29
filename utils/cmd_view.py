@@ -144,6 +144,11 @@ def menu_interface():
          
 
 graph=iGraph()
+
+
+
+# SAMPLE HARD CODED NODES
+# =========================
 graph.connect("Lagos", "Abia",5983)
 graph.connect("Lagos", "Anambra",1000)
 graph.connect("Lagos", "Kano",1230)
@@ -162,6 +167,6 @@ graph.connect("Dutse Alhaji", "Kaduna",906)
 graph.connect("Sokoto", "Lokoja",900)
 graph.connect("Lokoja", "Nasarawa",1900)
 graph.connect("Lokoja", "Minna",1900)
+
+
 menu_interface()
-# connect_graph()
-# get_input("What are you selling? ", int)

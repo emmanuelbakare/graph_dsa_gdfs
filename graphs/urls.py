@@ -4,7 +4,7 @@ from graphs import views
 app_name="graphs"
 
 urlpatterns =[ 
-    path('', views.dashboard),
+    path('', views.dashboard, name='dashboard'),
     path('<int:pk>/', views.graph_nodes, name='graph_nodes'),
    
    #Graph Diagram Paths
