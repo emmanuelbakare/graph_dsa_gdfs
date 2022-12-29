@@ -88,8 +88,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "Spoon", "label": "Spoon", "shape": "dot"}, {"color": "#97c2fc", "id": "Pan", "label": "Pan", "shape": "dot"}]);
-                  edges = new vis.DataSet([{"arrows": "to", "from": "Spoon", "to": "Pan"}]);
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "Lagos", "label": "Lagos", "shape": "dot"}, {"color": "#97c2fc", "id": "Ibadan", "label": "Ibadan", "shape": "dot"}, {"color": "#97c2fc", "id": "Ogun", "label": "Ogun", "shape": "dot"}, {"color": "#97c2fc", "id": "Oyo", "label": "Oyo", "shape": "dot"}, {"color": "#97c2fc", "id": "Osun", "label": "Osun", "shape": "dot"}, {"color": "#97c2fc", "id": "Ondo", "label": "Ondo", "shape": "dot"}, {"color": "#97c2fc", "id": "Edo", "label": "Edo", "shape": "dot"}, {"color": "#97c2fc", "id": "Kogi", "label": "Kogi", "shape": "dot"}, {"color": "#97c2fc", "id": "Abuja", "label": "Abuja", "shape": "dot"}, {"color": "#97c2fc", "id": "Nasarawa", "label": "Nasarawa", "shape": "dot"}, {"color": "#97c2fc", "id": "Benue", "label": "Benue", "shape": "dot"}, {"color": "#97c2fc", "id": "Kwara", "label": "Kwara", "shape": "dot"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "Lagos", "to": "Ibadan"}, {"arrows": "to", "from": "Ibadan", "to": "Ogun"}, {"arrows": "to", "from": "Ogun", "to": "Oyo"}, {"arrows": "to", "from": "Oyo", "to": "Osun"}, {"arrows": "to", "from": "Osun", "to": "Ondo"}, {"arrows": "to", "from": "Ondo", "to": "Edo"}, {"arrows": "to", "from": "Edo", "to": "Kogi"}, {"arrows": "to", "from": "Kogi", "to": "Abuja"}, {"arrows": "to", "from": "Abuja", "to": "Nasarawa"}, {"arrows": "to", "from": "Nasarawa", "to": "Benue"}, {"arrows": "to", "from": "Benue", "to": "Kwara"}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });

@@ -53,11 +53,14 @@ python manage.py runserver
 ```
 
  
-#### If you didn’t get any error. Go to your browser to  browse http://127.0.0.1:8000/graphs/ to see your application
+#### If you didn’t get any error. Go to your browser to  browse http://127.0.0.1:8000/ to see your application
 
-#### click on any of the **groups list** To see all the connections associated with it
+#### Click on the **Admin Page** link to see your admin page.
 
-#### click on the ***Full graph diagram** to see the graph diagram in another window
+From the admin page, you can add new graph.
+
+
+#### click on the ***Grahp Dashboard** link to see the graph dashboard
 
 #### click the ***Depth First Search** button to see the depth first search of the graph - using the first item as the root.
  
@@ -77,7 +80,13 @@ python manage.py runserver
 ```bash
 python utils\cmd_view.py
 ```
+> after running this commands on the command line terminal, you are taken to the program
+
+![Graph DFS Interface](https://github.com/emmanuelbakare/graph_dsa_gdfs/blob/main/media/CMD_main_menu.JPG)
+
+> Please not that menu item 7 (Show Diagram) have to be selected every time you make a change to your graph structure so that the system will regenerate a new version of the graph. If you do not do this, you will be seeing the old graph you implemented.
 > The video explains how to use it.
+
 
 
 
