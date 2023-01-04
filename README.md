@@ -27,13 +27,13 @@ Scripts\activate
 ``` 
 
  
-#### Go to my github folder where the codes are stored  [Here](https://github.com/emmanuelbakare/Graph_DFS_DSA) and copy the code by clicking on the Green “ <> Code” button and copy this link as shown in the drop down that shows.         https://github.com/emmanuelbakare/Graph_DFS_DSA.git 
+#### Go to my github folder where the codes are stored  [Here](https://github.com/emmanuelbakare/graph_dsa_gdfs) and copy the code by clicking on the Green “ <> Code” button and copy this link as shown in the drop down that shows.         https://github.com/emmanuelbakare/graph_dsa_gdfs.git 
 
 
 #### Go back to virtual environment and type this command. This will copy the codes in the git repository to your local computer and will set up git on  Note that the code will be copied to a folder named graphproj. You can optionally remove the 
  
 ```bash 
-git clone https://github.com/emmanuelbakare/Graph_DFS_DSA.git  graphdsa
+git clone https://github.com/emmanuelbakare/graph_dsa_gdfs.git  graphdsa
 
 ```
 
@@ -56,6 +56,7 @@ python manage.py runserver
 #### If you didn’t get any error. Go to your browser to  browse http://127.0.0.1:8000/ to see your application
 
 #### Click on the **Admin Page** link to see your admin page.
+> admin Login username: admin password: pass123
 
 From the admin page, you can add new graph.
 
